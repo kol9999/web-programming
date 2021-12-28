@@ -1,0 +1,44 @@
+
+#B_Card {
+	color: maroon;
+	margin: auto;
+	margin-left: 20px;
+	background-color: maroon;
+	text-align: center;
+	font-size: 20px;
+}
+
+.card {
+	background-color: lightgrey;
+	width: 300px;
+	border: 15px solid green;
+	padding: 50px;
+	margin: 20px;
+}
+
+
+h3 {
+   	font-family: "Rage Italic";
+}
+
+#cards {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	flex-wrap: wrap;
+}
+
+
+#card-plus {
+	background-color: yellow;
+	border-radius: 1rem;
+	border: 15px solid green;
+	padding: 25px;
+	margin: 10px;
+	color: black;
+}
+
+
+.card.after_preloader.disabled {
+	display: none;
+}
