@@ -1,0 +1,89 @@
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    background-color: black;
+    /*height: 100vh;*/
+    /*display: flex;*/
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    background-color: white;
+    padding: 10px 24px;
+    border-radius: 20px;
+    width: 490px;
+    height: 35rem;
+
+
+
+}
+
+section {
+    padding-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.currency_converter {
+    color: #364547;
+    margin-left: 72px;
+    margin-bottom: 0.5em;
+    font-family: 'Josefin Sans', serif;
+}
+
+.container .box {
+    width: 100%;
+    display: flex;
+}
+
+.box div{
+    width: 100%;
+}
+
+select {
+    width: 95%;
+    height: 40px;
+    font-size: 1.2em;
+    cursor: pointer;
+    background: lightblue;
+    outline: none;
+    color: black;
+    margin: 0.2em 0;
+    padding: 0 1em;
+    border-radius: 10px;
+    border: none;
+}
+
+input {
+    width: 95%;
+    height: 40px;
+    font-size: 1em;
+    margin: 0.2em 0;
+    border-radius: 10px;
+    border: none;
+    background: #cccccc;
+    outline: none;
+}
+
+.btn-2 {
+    width: 98%;
+    height: 40px;
+    background: #364547;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    margin: 0.5em 0;
+}
+.active, a.active {
+    color: red ;
+}
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
